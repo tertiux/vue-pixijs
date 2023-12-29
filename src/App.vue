@@ -3,6 +3,7 @@ import '@mdi/font/css/materialdesignicons.css';
 <template>
   <div id="app">
     <!-- <PixiComponent /> -->
+    <PixiComponent />
 
     <!-- Language Switcher -->
     <LanguageSwitcher />
@@ -30,12 +31,14 @@ import '@mdi/font/css/materialdesignicons.css';
 import LanguageSwitcher from "./components/Header.vue"
 import Header from "./components/Header.vue"
 import Sidebar from "./components/Sidebar.vue"
+import PixiComponent from "./components/PixiComponent.vue"
 
 export default {
   components: {
     LanguageSwitcher,
     Header,
     Sidebar,
+    PixiComponent,
   }
 
   ,
